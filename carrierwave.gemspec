@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.5}
   s.specification_version = 3
 
-  s.add_dependency("activesupport", [">= 3.0.0.rc"])
+  s.add_dependency("activesupport", [">= 3.0.0"])
 
-  s.add_development_dependency "rails", [">= 3.0.0.rc"]
+  s.add_development_dependency "rails", [">= 3.0.0"]
   s.add_development_dependency "rspec", ["~> 1.3.0"]
   s.add_development_dependency "aws"
   s.add_development_dependency "cucumber"
